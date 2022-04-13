@@ -11,4 +11,149 @@
     <title>Alexandersson vending</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <body><div class="container-fluid">
+    <div class="hi"><h1>Alexandersson Vending</h1></div>
+    <div class=" navbar"><nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Alexandersson Vending" height="50px" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="inventory.html">Inventory</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="checkout.html">Checkout</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactinfo.html">Contact Info</a>
+              </li>
+        </ul>
+        </div>
+                </div>
+        </div>
+      </nav>
+      <header class="container-fluid">
+        <div class="jumbotron himg">
+          <h1 class="h1">Loyalty, Trust, and Royalty.</h1>
+        <h6 class="h6">We try our best to quinch thirst, provide a snack for the road, and time- killing games</h6>
+
+        </div>
+  </header>
+    
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Special Delivery Orders</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Leave around back, etc">
+    </div>
+  
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Card Number</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="0000-0000-0000-0000">
+    </div>
+    <div class="col-12">
+      <label for="inputZip" class="form-label">Expiration Date</label>
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="form-select" id="inlineFormSelectPref">
+        <option selected> Expiration Month</option>
+        <option value="1">Jan</option>
+        <option value="2">Feb</option>
+        <option value="3">Mar</option>
+        <option value="3">Apr</option>
+        <option value="3">May</option>
+        <option value="3">Jun</option>
+        <option value="3">Jul</option>
+        <option value="3">Aug</option>
+        <option value="3">Sep</option>
+        <option value="3">Oct</option>
+        <option value="3">Nov</option>
+        <option value="3">Dec</option>
+      </select>
+    </div>
+    <div class="col-12">
+      <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+      <select class="form-select" id="inlineFormSelectPref">
+        <option selected>Expiration Year</option>
+        <option value="1">22</option>
+        <option value="2">23</option>
+        <option value="3">24</option>
+        <option value="3">25</option>
+        <option value="3">26</option>
+        <option value="3">27</option>
+        <option value="3">28</option>
+        <option value="3">29</option>
+        <option value="3">30</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">CVV2/CVC2</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Card Holder Name</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="0000-0000-0000-0000">
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+  </form>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+
+  
+  </body>
 </html>

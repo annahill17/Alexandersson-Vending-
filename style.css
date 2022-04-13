@@ -10,9 +10,11 @@
 }
 .h1{
     text-align: center;
+    color:white
 }
 .h6{
     text-align: center;
+    color:white
 }
 
 .himg{
@@ -24,3 +26,27 @@
     width: 100px;
     background-color: #555;
   }
+  .jumbotron{
+      height: 150px;
+
+  }
+
+  .drinks{
+      text-align:center;
+    }
+
+    .in{
+        text-align: center;
+    }
+    .hhimg{
+        background-image: url(img/snickers.jpg);
+        height: 150px;
+    }
+    .h11{
+        color:beige;
+        font-size: xx-large;
+        text-align: center;
+    }
+    .inventory{
+        background-color: 8A98A6;
+    }
