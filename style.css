@@ -36,7 +36,7 @@
     }
 
     .in{
-        text-align: center;
+        text-align: left;
     }
     .hhimg{
         background-image: url(img/snickers.jpg);
@@ -49,4 +49,27 @@
     }
     .inventory{
         background-color: 8A98A6;
+    }
+    .h11{
+        text-align: center;
+    }
+    .h2{
+        text-align: left;
+        font-style: italic;
+    } 
+    .container{
+        background-color: lightblue;
+    }
+    .hii{
+        color:white
+    }
+    .container-fluid{
+        background-color:lightblue
+    }
+    .html{
+        text-align: center;
+        background-color: lightblue;
+    }
+    .css{
+        text-align: center;
     }
