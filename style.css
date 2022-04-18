@@ -1,5 +1,5 @@
 .hi{
-    background-color:#CEDEF0
+    background-color:rgb(138,152,166)
 }
 .navbar{
     background-color:#CEDEF0;
@@ -34,10 +34,6 @@
   .drinks{
       text-align:center;
     }
-
-    .in{
-        text-align: left;
-    }
     .hhimg{
         background-image: url(img/snickers.jpg);
         height: 150px;
@@ -48,7 +44,7 @@
         text-align: center;
     }
     .inventory{
-        background-color: 8A98A6;
+        background-color: rgb(138,152,166);
     }
     .h11{
         text-align: center;
@@ -56,20 +52,42 @@
     .h2{
         text-align: left;
         font-style: italic;
+        background-color: cadetblue;
+        font-family: fantasy;
+        font-size: xx-large;
     } 
     .container{
-        background-color: lightblue;
+        background-color:rgb(138,152,166);
     }
     .hii{
         color:white
     }
     .container-fluid{
-        background-color:lightblue
+        background-color:rgb(138,152,166);
     }
     .html{
         text-align: center;
-        background-color: lightblue;
+        background-color:rgb(138,152,166);
     }
     .css{
         text-align: center;
     }
+.clown{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);    
+    background-color: rgb(13,38,66);
+    color:white;
+    text-align: center;
+}
+.games{
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);   
+     background-color: rgb(13,38,66);
+     color: white;
+     text-align: center;
+}
+
+.chips{
+    text-align: center;
+}
+.navvy{
+    background-color: rgb(138);
+}
