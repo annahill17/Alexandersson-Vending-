@@ -68,10 +68,7 @@
     .html{
         text-align: center;
         background-color:rgb(138,152,166);
-    }
-    .css{
-        text-align: center;
-    }
+    
 .clown{
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);    
     background-color: rgb(13,38,66);
@@ -91,4 +88,14 @@
 .navvy{
     background-color: rgb(138);
 }
+.hhtml{
+    text-align: center;
+}
 
+.stan{
+    font-family: monospace;
+    background-color: rgb(138,152,166);
+}
+.controls{
+    background-color: rgb(138,152,166);
+}
