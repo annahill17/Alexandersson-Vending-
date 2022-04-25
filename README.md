@@ -1,0 +1,2 @@
+Our project is about the services Alexandersson Vending has. It is a webiste that gives you information about the products that they provide and what products they sell.
+We used navbars, dropdwons, learning how to create a checkout page, and we put pictures inside of each different page

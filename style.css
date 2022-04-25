@@ -68,18 +68,6 @@
     .html{
         text-align: center;
         background-color:rgb(138,152,166);
-    
-.clown{
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);    
-    background-color: rgb(13,38,66);
-    color:white;
-    text-align: center;
-}
-.games{
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);  
-    background-color: rgb(13,38,66);
-     color: white;
-     text-align: center;
 }
 
 .chips{
@@ -98,4 +86,16 @@
 }
 .controls{
     background-color: rgb(138,152,166);
+}
+.clown{
+    background-color:rgb(13,38,66);
+    color: white;
+    text-align: center;
+}
+.games{
+    background-color: rgb(13,38,66);
+    color:white;
+}
+.hehe{
+    text-align: center;
 }
